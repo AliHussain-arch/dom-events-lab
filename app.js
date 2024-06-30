@@ -114,10 +114,11 @@ calculator.addEventListener('click', (event) => {
   if (event.target.innerText === 'C'){
     num1 = [];
     num2= [];
+    answer = Number();
     operation = [];
     stop_num2_push = 0;
-    let num1_negative = 0;
-    let num2_negative = 0; 
+    num1_negative = 0;
+    num2_negative = 0;  
     display.textContent = '';
   }
   
